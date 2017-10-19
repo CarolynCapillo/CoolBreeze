@@ -22,7 +22,7 @@ namespace CoolBreeze
 
         private void InitializeAppAsync()
         {
-            DateTime badDateTime = DateTime.Parse("Change today");
+           
             if (App.ViewModel == null) App.ViewModel = new MainViewModel();
         }
 
